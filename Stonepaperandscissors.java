@@ -55,9 +55,6 @@ public class Stonepaperandscissors
             System.out.println("sc");
             else if(ch.equals("p"))
             System.out.println("You: "+c+"\nComp: "+cc);
-
-            else
-            p++;
         }
         if(c>cc)
         System.out.println("You Win!!\nYou: "+c+"\nComp: "+cc);   
