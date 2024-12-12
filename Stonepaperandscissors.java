@@ -54,10 +54,8 @@ public class Stonepaperandscissors
             else if(ch.equals("sc")&&chc==2)
             System.out.println("sc");
             else if(ch.equals("p"))
-            {
-                System.out.println("You: "+c+"\nComp: "+cc);
-                p++;
-            }
+            System.out.println("You: "+c+"\nComp: "+cc);
+
             else
             p++;
         }
