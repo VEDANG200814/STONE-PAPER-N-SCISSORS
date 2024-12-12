@@ -20,32 +20,32 @@ public class Stonepaperandscissors
             if(ch.equals("s")&&chc==1)
             {
                 cc++;
-                System.out.println("pa");
+                System.out.println("pa\nComp: +1");
             }
             else if(ch.equals("pa")&&chc==2)
             {
                cc++;
-               System.out.println("sc");
+               System.out.println("sc\nComp: +1");
             }
             else if(ch.equals("sc")&&chc==0)
             {
                 cc++;
-                System.out.println("s");
+                System.out.println("s\nComp: +1");
             }
             else if(ch.equals("s")&&chc==2)
             {
                 c++;
-                System.out.println("sc");
+                System.out.println("sc\nYou: +1");
             }
             else if(ch.equals("pa")&&chc==0)
             {
                 c++;
-                System.out.println("s");
+                System.out.println("s\nYou: +1");
             }
             else if(ch.equals("sc")&&chc==1)
             {
                 c++;
-                System.out.println("pa");
+                System.out.println("pa\nYou: +1");
             }
             else if(ch.equals("s")&&chc==0)
             System.out.println("s");
